@@ -13,7 +13,7 @@
 * [Set J](https://github.com/Saranya-Baskaran/Data-Science)
 * [Code](https://github.com/Saranya-Baskaran/Data-Science)
 * [Compressed Files](https://github.com/Saranya-Baskaran/Data-Science)
-* [Stage 1 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science)
+* [Stage 1 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Report.pdf)
 
 
 
