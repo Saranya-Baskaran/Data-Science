@@ -21,4 +21,4 @@
 * [DATA](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage2/DATA)
   * [README file](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage2/DATA/README.md)
 * [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage2/CODE)
-* [Stage 2 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Data/AllData)
+* [Stage 2 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage2/STAGE2_Report.pdf)
