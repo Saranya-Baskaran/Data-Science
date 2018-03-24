@@ -20,5 +20,5 @@
 
 * [DATA](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Data/AllData)
   * [README file](https://github.com/Saranya-Baskaran/Data-Science/blob/master/ReadMe.md)
-* [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Data/AllData)
+* [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage2/CODE)
 * [Stage 2 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Data/AllData)
