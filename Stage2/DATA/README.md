@@ -6,7 +6,7 @@
 ######    1) IMDB (imdb.csv) - 3750 tuples 
 ###### 		2) FILMCRAVE(filmcrave.csv) - 3220 tuples
 #### Schema:
-######    1) Title  : Title of the year (Type - String)
+######    1) Title  : Title of the movie (Type - String)
 ######    2) Overall Rating : Overall rating of the movie (Type - Float)
 ######    3) Year : Year of release of the film (Type - Integer)
 ######    4) Genre : Generes of the film (Type - String)
