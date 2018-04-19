@@ -22,3 +22,16 @@
   * [README file](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage2/DATA/README.md)
 * [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage2/CODE)
 * [Stage 2 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage2/STAGE2_Report.pdf)
+
+## Stage 2 - Entity Matching
+* [DATA](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage3/Data)
+  * [README file](https://github.com/Saranya-Baskaran/Data-Science/blob/master/ReadMe.md)
+  * [Blocking Survived Data Set](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/BlockingSurvivedDataset.csv)
+  * [Labelled Tuple Pairs](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/Sampleset1.csv)
+  * [Set I](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/Trainset.csv)
+  * [Set J](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/Testset.csv)
+* [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage3/Code)
+  * [Jupyter Notebook] (https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Code/Entitymatching.ipynb)
+* [Stage 3 Report pdf] ()
+
+
