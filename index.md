@@ -31,7 +31,7 @@
   * [Set I](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/Trainset.csv)
   * [Set J](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/Testset.csv)
 * [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage3/Code)
-  * [Jupyter Notebook] (https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Code/Entitymatching.ipynb)
-* [Stage 3 Report pdf] ()
+  * [Jupyter Notebook](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Code/Entitymatching.ipynb)
+* [Stage 3 Report pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Code/STAGE3_EM_Report%20.pdf)
 
 
