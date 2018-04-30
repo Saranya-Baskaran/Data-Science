@@ -1,13 +1,13 @@
 import pandas as pd
 from merger_methods import merger, nomerge
-from directors import populate_director_table
+from populate_foreigntables import *
 
 movie_data_columns = ['movie_name', 'movie_rating', 'movie_year', 'movie_genres',
                 'movie_directors', 'movie_actors']
 
-actor_data_columns = ['movie_id', 'actor_id', 'actor_name']
-director_data_columns = ['movie_id', 'director_id', 'director_name']
 genre_data_columns = ['movie_id','genre_id', 'genre_name']
+director_data_columns = ['movie_id', 'director_id', 'director_name']
+actor_data_columns = ['movie_id', 'actor_id', 'actor_name']
 
 candidate_dataframe = pd.read_csv('../data/Candidate_Matches.csv')
 predicted_dataframe = pd.read_csv('../data/Predicted.csv')
@@ -22,6 +22,7 @@ print('Total tuple combinations: ',len(predicted_dataframe))
 id_count = 0
 director_id = 0
 actor_id = 0
+genre_id = 0
 
 # Map to maintain list of already added movies
 added_movies = []
@@ -31,9 +32,11 @@ added_actors = []
 
 # Create new dataframes
 movies = pd.DataFrame(columns=movie_data_columns)
+genres = pd.DataFrame(columns=genre_data_columns)
 directors = pd.DataFrame(columns=director_data_columns)
 actors = pd.DataFrame(columns=actor_data_columns)
-genres = pd.DataFrame(columns=genre_data_columns)
+
+
 # Iterate through all the predictions_dataframe
 for i, row in predicted_dataframe.iterrows():
 
@@ -73,33 +76,30 @@ for i, row in predicted_dataframe.iterrows():
         'movie_actors':merged_movie[5]
         }, ignore_index=True)
 
-        # directors, director_id = populate_director_table(directors, id_count,
-                                # director_id, merged_movie[4], added_directors)
+        genres, genre_id = populate_genre_table(genres, id_count, genre_id,
+                            merged_movie[3], added_genres)
 
-        movie_directors_list = merged_movie[4].split(',')
+        directors, director_id = populate_director_table(directors, id_count,
+                                 director_id, merged_movie[4], added_directors)
 
-        for director in movie_directors_list:
-
-            if director in added_directors:
-                idx = added_directors.index(director) + 1
-            else:
-                director_id += 1
-                idx = director_id
-                added_directors.append(director)
-
-            directors = directors.append({
-            'movie_id':id_count,
-            'director_id':idx,
-            'director_name':director
-            }, ignore_index=True)
+        actors, actor_id = populate_actor_table(actors, id_count, actor_id,
+                            merged_movie[5], added_actors)
 
         id_count += 1
 
 movies = movies[pd.notnull(movies['movie_name'])]
+genres = genres[pd.notnull(genres['genre_name'])]
 directors = directors[pd.notnull(directors['director_name'])]
+actors = actors[pd.notnull(actors['actor_name'])]
+
 
 print('Total number of movies ', len(movies))
+print('Total number of genres ', genre_id)
 print('Total number of directors ', director_id)
+print('Total number of actors ', actor_id)
 
-movies.to_csv('../Data/final_movie_data.csv')
-directors.to_csv('../Data/final_director_data.csv')
+
+movies.to_csv('../Data/movie_table.csv')
+genres.to_csv('../Data/genre_table.csv')
+directors.to_csv('../Data/director_table.csv')
+actors.to_csv('../Data/actor_table.csv')
