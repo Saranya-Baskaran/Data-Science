@@ -23,7 +23,7 @@
 * [CODE](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage2/CODE)
 * [Stage 2 Project Report Pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage2/STAGE2_Report.pdf)
 
-## Stage 2 - Entity Matching
+## Stage 3 - Entity Matching
 * [DATA](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage3/Data)
   * [README file](https://github.com/Saranya-Baskaran/Data-Science/blob/master/ReadMe.md)
   * [Blocking Survived Data Set](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Data/BlockingSurvivedDataset.csv)
@@ -34,4 +34,12 @@
   * [Jupyter Notebook](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Code/Entitymatching.ipynb)
 * [Stage 3 Report pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage3/Code/STAGE3_EM_Report%20.pdf)
 
+## Stage 4 - Integration and performing analysis
+* [DIRECTORY](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage4)
+  * [Table E](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage4/Data/movie_table.csv)
+  * [Set of Matches between table A and table B](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage4/Data/Candidate_Matches.csv)
+  * [Merging Scripts](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage4/Code)
+* [Stage $ Report pdf]()
 
+
+ 
