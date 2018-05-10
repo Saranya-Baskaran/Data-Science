@@ -39,7 +39,7 @@
   * [Table E](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage4/Data/movie_table.csv)
   * [Set of Matches between table A and table B](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage4/Data/Candidate_Matches.csv)
   * [Merging Scripts](https://github.com/Saranya-Baskaran/Data-Science/tree/master/Stage4/Code)
-* [Stage 4 Report pdf]()
+* [Stage 4 Report pdf](https://github.com/Saranya-Baskaran/Data-Science/blob/master/Stage4/STAGE4_Report.pdf)
 
 
  
